@@ -1,8 +1,4 @@
-# Imersão Fullcycle 21 - Home broker
-
-![Imersão Full Stack && Full Cycle](https://events-fullcycle.s3.amazonaws.com/events-fullcycle/static/site/img/grupo_4417.png)
-
-Participe gratuitamente: https://imersao.fullcycle.com.br/
+# Home broker
 
 ## Requerimentos
 
@@ -17,15 +13,11 @@ Dependendo do seu sistema operacional, você tem 2 opções para instalar o Dock
 
 Se você tem 8GB ou menos de memória RAM, recomendamos o uso do Docker Engine, pois a interface gráfica do Docker Desktop + a execução dos containers pode consumir praticamente a memória da máquina, caso contrário usar o Docker Desktop é mais prático.
 
-Se você quiser saber mais detalhes sobre isto, veja nosso vídeo [https://www.youtube.com/watch?v=99dCerRKO6s](https://www.youtube.com/watch?v=99dCerRKO6s).
-
-Se você estiver no Windows, use o WSL 2. Veja nosso tutorial [https://github.com/codeedu/wsl2-docker-quickstart](https://github.com/codeedu/wsl2-docker-quickstart).
-
 ## Rodar a aplicação
 
 Para rodar os projetos entre em cada pasta e siga as intruções.
 
-Existe uma configuração para rodar todos os projetos em containers Docker, veja o branch **all-in-docker**.
+Existe uma configuração para rodar todos os projetos em containers Docker.
 
 Entre em cada **README.md** dos projetos para rodar os projetos. A ordem de execução é:
 
@@ -33,14 +25,15 @@ Entre em cada **README.md** dos projetos para rodar os projetos. A ordem de exec
 1. [Nest.js](./nestjs-api/README.md)
 3. [Next.js](./next-frontend/README.md)
 
-## Links e material adicional
-
-* Como montar o melhor ambiente Dev no Windows, Linux e Mac com WSL [https://www.youtube.com/watch?v=O33trWxqVC4](https://www.youtube.com/watch?v=O33trWxqVC4)
-* Instalação do Node.js [https://nodejs.org/](https://nodejs.org/)
-* Docker [https://www.docker.com/](https://www.docker.com/)
-* Tutorial do WSL + Docker [https://github.com/codeedu/wsl2-docker-quickstart]
-* Minhas configurações do VSCode [https://github.com/argentinaluiz/my-vscode-settings](https://github.com/argentinaluiz/my-vscode-settings)
 
 ## Arquitetura do projeto
+![arquitetura](https://github.com/user-attachments/assets/e8bde689-8092-49e9-9f98-e98cc015c3d3)
 
-![alt text](./arquitetura_projeto.png)
+## Diagrama de entidade e relacionamento
+![diagrama](https://github.com/user-attachments/assets/3b234b0b-60d2-4b73-afb2-271211ec43d8)
+
+## Diagrama de Websockets
+![websocket](https://github.com/user-attachments/assets/a01a23b4-d5e8-4ecc-9553-c7a747d4904b)
+
+## Websockets change-stream
+![websocket-change-stream](https://github.com/user-attachments/assets/56657e19-04b8-4fce-94a6-753d9210d65d)
