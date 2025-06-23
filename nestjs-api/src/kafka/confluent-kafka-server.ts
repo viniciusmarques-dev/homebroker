@@ -3,7 +3,7 @@ import {
   KafkaHeaders,
   KafkaParser,
   KafkaParserConfig,
-  KafkaRetriableException,a
+  KafkaRetriableException,
   OutgoingResponse,
   ReadPacket,
   Server,
